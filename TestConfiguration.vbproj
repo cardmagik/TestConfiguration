@@ -72,6 +72,7 @@
   <ItemGroup>
     <Compile Include="..\Configuration.vb">
       <Link>Configuration.vb</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Compile>
     <Compile Include="Form1.vb">
       <SubType>Form</SubType>
